@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ViewBag.title = "index";
+  
+  }
+
+<h2>Index</h2>
+
+<p>Hello from our view template</p>
+
+<ul> @for (int i=0; i <5; i++)
+     {
+         <li>
+             Hello World
+         </li>
+     }
+         </ul>
